@@ -8,13 +8,13 @@ body {
     /******************/
 	
 	.header {
-		height: 85px;
+		height: 50px;
 		background-color: #232a71;
 	}
 
 	.brand {
 		width: 18%;
-		line-height: 85px;
+		line-height: 50px;
 	}
 
 	.brand > img {
@@ -264,6 +264,17 @@ body {
 		position: relative;
 	}
 	
+	.blured-logo-wrapper {
+		position: relative;
+	}
+
+	.blured-logo {
+		position: absolute;
+		opacity: 0.1;
+		top: -58px;
+   		left: 15px;
+	}
+	
 	.content-border {
 		border-right: 1px solid #2c9fcb;
 		padding-bottom: 12px;
@@ -351,6 +362,11 @@ body {
 		.footer {
 			margin-top: 30px;
 			margin-bottom: 35px;
+		}
+
+		.footer-tittle {
+			display: inline-block;
+			padding-top: 5px;
 		}
 	}
 
