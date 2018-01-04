@@ -13,8 +13,13 @@ body {
 	}
 
 	.brand {
+		display: inline-block;
 		width: 18%;
 		line-height: 50px;
+	}
+
+	.suspilne {
+		float: right;
 	}
 
 	.brand > img {
